@@ -4,7 +4,7 @@
     android:background="@android:color/transparent"
     android:padding="@dimen/widget_margin">
 
-        
+
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,5 +57,17 @@
                     android:layout_row="1"
                     android:text="Share" />
 
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="0"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Code" />
+
         </GridLayout>
+
+
 </RelativeLayout>
